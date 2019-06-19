@@ -1,0 +1,49 @@
+.center{
+    height: 100%;
+    width: 100%;
+    display : flex ;
+    background-color: rgb(106, 167, 20);
+    box-shadow: 1px 1px 20px rgb(75, 75, 75) ;
+    margin-bottom: 10%;
+}
+.center .left{
+    height: 100%;
+    width:32%;
+    background-color: rgb(210, 229, 230);
+}
+.center .right{
+    height: 100%;
+    width:68%;
+    background-color: rgb(178, 248, 248);
+
+}
+.center .left .picture img {
+    height: 60%;
+    width:60%;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 5%;
+}
+.center .left .text1 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight: bolder;
+   padding-left: 2%;
+   color: rgb(7, 88, 88);
+}
+.center .left .text2 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight:lighter;
+   padding-left: 3%;
+   color: rgb(2, 19, 19);
+}
+.center .right .contact p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color: rgb(6, 98, 110);
+}
+.center .right .name-track{
+    display: flex;
+
+}
